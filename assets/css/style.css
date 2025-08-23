@@ -1,9 +1,9 @@
 
 body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: white; }
-header { background-color: white; color: #003366; padding: 20px; display: flex; align-items: center; }
+header { background-color: white; color: #003366; padding: 20px; display: flex; align-items: center; justify-content: space-between; }
 header img.logo { height: 50px; margin-right: 15px; }
-nav { margin-left: auto; }
 nav a { margin: 0 10px; color: #003366; text-decoration: none; font-weight: bold; }
+.language-switcher a { margin-left: 10px; text-decoration: none; color: #003366; font-weight: bold; }
 .container { padding: 40px 20px; max-width: 1000px; margin: auto; background: white; }
 h1, h2, h3 { color: #003366; }
 form input, form select, form button { padding: 10px; margin: 10px 0; width: 100%; }
